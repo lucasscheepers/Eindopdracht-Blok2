@@ -12,6 +12,7 @@ Geschreven en ontwikkeld door Lucas Scheepers
 - Check of de services zijn opgestart d.m.v. een health check: http://EC2Co-EcsEl-174JR7MRZ6YNG-1811941670.us-east-1.elb.amazonaws.com/actuator/health
 
 ##### Stap 3
+- Ga naar SQS --> purge alle messages van de queue genaamd: BACKEND-SAM-RegisterIncidentsSNSTriggerEventQueue-C41MVB2L4XM0
 - Enable de SNS queue van de BACKEND-SAM-RegisterIncidents-19NTISF5GW7BK lambda
 
 ##### Stap 4
