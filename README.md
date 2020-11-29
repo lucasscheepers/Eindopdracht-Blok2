@@ -63,8 +63,10 @@ Nadat alles volledig is opgestart is de web applicatie hier te bereiken: dk8lbso
 	- BACKEND-SAM-RegisteredIncidentsEventRole-1CPV4YE4E7SX 
 - API gateway genaamd: AIMAS API
 - DynamoDB tabellen genaamd: IncidentDB & IncidentsEventDB
-	
+- SNS queue genaamd: BACKEND-SAM-RegisterIncidentsSNSTriggerEventQueue-C41MVB2L4XM0
+- SQS queue genaamd: RegisterIncidentsQueue & SavingEventsQueue
 
+	
 ## 3. CodeCommit
 - https://console.aws.amazon.com/codesuite/codecommit/repositories/EINDOPDRACHT-BLOK2-SAM-BACKEND/browse?region=us-east-1
 - https://console.aws.amazon.com/codesuite/codecommit/repositories/EINDOPDRACHT-BLOK2-FUNCTIONAL-TESTS/browse?region=us-east-1
